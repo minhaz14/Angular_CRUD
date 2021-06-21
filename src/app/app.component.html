@@ -1,0 +1,17 @@
+<h2>Table Items</h2>
+
+<table border="1">
+    <tr>
+      <th>USER_ID</th>
+      <th>ID</th>
+      <th>TITLE</th>
+      <th>STATUS</th>
+    </tr>
+    <tr *ngFor="let item of data">
+      <td>{{item.userId}}</td>
+      <td>{{item.id}}</td>
+      <td>{{item.title}}</td>
+      <td>{{item.completed}}</td>
+    </tr>
+  </table>
+  
